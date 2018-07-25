@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="demoJenkins.OpenBrowserJob" hash-for-method="checkPageTitle">checkPageTitle</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="demoJenkins.DemoJeninsJob" hash-for-method="testJenkins">testJenkins</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">demoJenkins.OpenBrowserJob</span>
+              <span class="class-name">demoJenkins.DemoJeninsJob</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkPageTitle">
-                  </a> <!-- checkPageTitle -->
-                  <span class="method-name">checkPageTitle</span>
+                  <a name="testJenkins">
+                  </a> <!-- testJenkins -->
+                  <span class="method-name">testJenkins</span>
                   <div class="stack-trace">java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
 	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
@@ -135,7 +135,7 @@
 	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
 	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
-	at demoJenkins.OpenBrowserJob.checkPageTitle(OpenBrowserJob.java:16)
+	at demoJenkins.DemoJeninsJob.testJenkins(DemoJeninsJob.java:16)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -154,7 +154,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;demoJenkins.OpenBrowserJob&quot;/&gt;
+      &lt;class name=&quot;demoJenkins.DemoJeninsJob&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -196,14 +196,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkPageTitle')
-data.setCell(0, 2, 'demoJenkins.OpenBrowserJob')
-data.setCell(0, 3, 85);
+data.setCell(0, 1, 'testJenkins')
+data.setCell(0, 2, 'demoJenkins.DemoJeninsJob')
+data.setCell(0, 3, 89);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 85 ms</span>
+              <span class="suite-total-time">Total running time: 89 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -229,11 +229,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">demoJenkins.OpenBrowserJob</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">demoJenkins.DemoJeninsJob</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">checkPageTitle</span>
+                <span class="method-name">testJenkins</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

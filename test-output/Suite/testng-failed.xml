@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="demoJenkins.OpenBrowserJob">
+      <class name="demoJenkins.DemoJeninsJob">
         <methods>
-          <include name="checkPageTitle"/>
+          <include name="testJenkins"/>
         </methods>
-      </class> <!-- demoJenkins.OpenBrowserJob -->
+      </class> <!-- demoJenkins.DemoJeninsJob -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
