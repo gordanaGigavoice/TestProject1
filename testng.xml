@@ -3,8 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="demoJenkins.DemoJeninsJob"/>
+   	  <class name="demoJenkins.DemoJeninsJob"/>
+      
+    </classes>
+  </test> 
+  <test thread-count="5" name="Test1">
+    <classes>
+   	  
       <class name="demoJenkins.OpenBrowserJob"/>
     </classes>
-  </test> <!-- Test -->
+  </test><!-- Test -->
 </suite> <!-- Suite -->
