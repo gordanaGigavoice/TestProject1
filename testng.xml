@@ -12,5 +12,12 @@
    	  
       <class name="demoJenkins.OpenBrowserJob"/>
     </classes>
-  </test><!-- Test -->
+  </test>
+  <test thread-count="5" name="Test2">
+    <classes>
+   	  
+      <class name="demoJenkins.HeadlessChrome"/>
+    </classes>
+  </test>
+  <!-- Test -->
 </suite> <!-- Suite -->

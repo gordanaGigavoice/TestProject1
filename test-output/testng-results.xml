@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4181" started-at="2018-07-26T13:56:35Z" finished-at="2018-07-26T13:56:39Z">
+  <suite name="Suite" duration-ms="16310" started-at="2018-08-06T11:04:44Z" finished-at="2018-08-06T11:05:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4181" started-at="2018-07-26T13:56:35Z" finished-at="2018-07-26T13:56:39Z">
+    <test name="Test" duration-ms="71" started-at="2018-08-06T11:04:44Z" finished-at="2018-08-06T11:04:44Z">
+      <class name="demoJenkins.DemoJeninsJob">
+        <test-method status="PASS" signature="testJenkins()[pri:0, instance:demoJenkins.DemoJeninsJob@687080dc]" name="testJenkins" duration-ms="21" started-at="2018-08-06T11:04:44Z" finished-at="2018-08-06T11:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJenkins -->
+      </class> <!-- demoJenkins.DemoJeninsJob -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="14208" started-at="2018-08-06T11:04:44Z" finished-at="2018-08-06T11:04:58Z">
       <class name="demoJenkins.OpenBrowserJob">
-        <test-method status="PASS" signature="checkPageTitle()[pri:0, instance:demoJenkins.OpenBrowserJob@687080dc]" name="checkPageTitle" duration-ms="4129" started-at="2018-07-26T13:56:35Z" finished-at="2018-07-26T13:56:39Z">
+        <test-method status="PASS" signature="checkPageTitle()[pri:0, instance:demoJenkins.OpenBrowserJob@462d5aee]" name="checkPageTitle" duration-ms="14199" started-at="2018-08-06T11:04:44Z" finished-at="2018-08-06T11:04:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageTitle -->
       </class> <!-- demoJenkins.OpenBrowserJob -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="1924" started-at="2018-08-06T11:04:58Z" finished-at="2018-08-06T11:05:00Z">
+      <class name="demoJenkins.HeadlessChrome">
+        <test-method status="PASS" signature="createChromeDriverHeadless()[pri:0, instance:demoJenkins.HeadlessChrome@6950e31]" name="createChromeDriverHeadless" duration-ms="1915" started-at="2018-08-06T11:04:58Z" finished-at="2018-08-06T11:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriverHeadless -->
+      </class> <!-- demoJenkins.HeadlessChrome -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
